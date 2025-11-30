@@ -1,5 +1,7 @@
 {
-  "Square Number": "square",
-  "Cube Number": "cube",
-  "Factorial": "factorial"
+  "Square Numbers": "square_number",
+  "Cube Numbers": "cube_number",
+  "Absolute Value": "absolute_value",
+  "Factorial": "factorial",
+  "Fibonacci": "fibonacci"
 }

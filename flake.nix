@@ -17,6 +17,7 @@
           ps: with ps; [
             scipy
             black
+            matplotlib
           ]
         );
       in

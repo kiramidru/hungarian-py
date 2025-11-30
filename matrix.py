@@ -11,6 +11,7 @@ def cost_matrix(functions, test_cases):
             func(tc)
             end = time.perf_counter()
             cost_matrix[i][j] = end - start
+    print(cost_matrix)
     return cost_matrix
 
 
