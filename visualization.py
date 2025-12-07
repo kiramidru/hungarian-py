@@ -21,6 +21,6 @@ def plot_comparison(linear_total, hungarian_total, optimized_total):
         )
 
     ax.set_ylabel("Total Cost / Execution Time")
-    ax.set_title("Total Test Suite Cost Before and After Optimization")
+    ax.set_title("Total Test Suite Cost Using Linear, Hungarian, and Optimized Hungarian Methods")
     plt.tight_layout()
     plt.show()
