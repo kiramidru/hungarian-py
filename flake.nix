@@ -15,9 +15,10 @@
         python = pkgs.python313;
         python_packages = python.withPackages (
           ps: with ps; [
-            scipy
             black
             matplotlib
+            scikit-learn
+            scipy
           ]
         );
       in

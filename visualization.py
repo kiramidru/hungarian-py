@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 
 
-def plot_comparison(linear_total, optimized_total):
+def plot_comparison(linear_total, hungarian_total, optimized_total):
 
-    labels = ["Before Optimization", "After Optimization"]
-    costs = [linear_total, optimized_total]
+    labels = ["Linear", "Hungarian", "Hungarian + Greedy + Clustering"]
+    costs = [linear_total, hungarian_total, optimized_total]
 
     fig, ax = plt.subplots(figsize=(6, 5))
     bars = ax.bar(labels, costs, color=["skyblue", "orange"])
